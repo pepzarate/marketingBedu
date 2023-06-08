@@ -16,29 +16,67 @@
         p{
             color:#8b8b8bcc
         }
-        button {
+        .like {
             display: block;
             margin: 20px auto;
             color: #fff;
             background-color: #025157;
             padding: 10px 20px;
         }
+        a{
+            text-decoration: none;
+        }
+        nav{
+            display: inline-block;
+            width: 75%;
+           text-align: center;
+
+        }
+        li {
+            display: inline-block;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <h1>Construye tu blog... </h1>
-    <p class="subtitulo">Como invertir en publicidad.</p>
-    <div style="display: flex; align-items: center; gap: 10px;">
-        <img src="https://integra-hotel.com/wp-content/uploads/2021/07/services-mission-image@2x.jpg" alt="">
-        <div>
-            <p>No tienes que romperte la cabeza sobre cómo, cuándo y dónde invertir en publicidad</p>
-
-            <p>Recibes información importante para impulsar tu hotel, nuevos nichos de mercado, diseño adecuado de tarifas, reputación online, etc.</p>
-            
-            <p>Y que no hay una segunda oportunidad para una mala primera impresión, <strong>tener una adecuada presencia online, puede marcar una gran diferencia a nivel de resultados,</strong> la mayoría de las reservas en la actualidad se realizan en línea, se debe diseñar una buena estrategia de marketing para maximizar resultados.</p>
-        </div>
+    
+    
+    
+<header>
+    <a href="/">
+        <img height="50" src="https://upload.wikimedia.org/wikipedia/commons/9/92/Audi-Logo_2016.svg" alt="">
+    </a>
+    <nav>
+        <ul>
+            <li>Inicio</li>
+            <li>Servicios</li>
+            <li>Acerca de</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+    <div class="btn-reserva">
+        <button>Reserva ahora</button>
     </div>
-    <button>LIKE 👍</button>
+</header>
+<h1>Construye tu blog... </h1>
+<p class="subtitulo">Como invertir en publicidad.</p>
+<div style="display: flex; align-items: center; gap: 10px;">
+    <img src="https://integra-hotel.com/wp-content/uploads/2021/07/services-mission-image@2x.jpg" alt="">
+    <div>
+        <p>No tienes que romperte la cabeza sobre cómo, cuándo y dónde invertir en publicidad</p>
+
+        <p>Recibes información importante para impulsar tu hotel, nuevos nichos de mercado, diseño adecuado de tarifas, reputación online, etc.</p>
+        
+        <p>Y que no hay una segunda oportunidad para una mala primera impresión, <strong>tener una adecuada presencia online, puede marcar una gran diferencia a nivel de resultados,</strong> la mayoría de las reservas en la actualidad se realizan en línea, se debe diseñar una buena estrategia de marketing para maximizar resultados.</p>
+    </div>
+</div>
+<button class="like">LIKE 👍</button>    
+
 </body>
 </html>
